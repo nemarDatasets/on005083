@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Safety and Accuracy of Stereoelectroencephalography for Pediatric Patients with Prior Craniotomy",
+  "description": "This dataset comprises intracranial electroencephalography (iEEG) recordings from stereoelectroencephalography (SEEG) electrode implantations in pediatric patients with a history of prior craniotomy. The data includes electrode coordinates localized in individual native post-operative CT imaging space. All coordinates are recorded in native space with no alignment to other imaging modalities or standardized atlases. This dataset supports clinical and research investigations into the safety and accuracy of SEEG procedures in this patient population.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,12 +17,45 @@
     "Matthew D Smyth": {},
     "Jarod L Roland": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005083.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "iEEG"
     },
+    {
+      "term": "stereoelectroencephalography"
+    },
+    {
+      "term": "SEEG"
+    },
+    {
+      "term": "pediatric epilepsy"
+    },
+    {
+      "term": "electrode implantation"
+    },
+    {
+      "term": "craniotomy"
+    },
+    {
+      "term": "epilepsy surgery"
+    },
+    {
+      "term": "electrode localization"
+    },
+    {
+      "term": "intracranial recording"
+    },
+    {
+      "term": "safety"
+    },
+    {
+      "term": "accuracy"
+    },
+    {
+      "term": "pediatric"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005083",
       "identifier_type": "URL",
@@ -36,57 +70,27 @@
       "identifier": "10.18112/openneuro.ds005083",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005083.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "363.9 KB (1233 files)"
   ],
   "formats": [
     ".dat",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This intracranial electroencephalography (iEEG) dataset comprises stereoelectroencephalography (SEEG) electrode recordings from pediatric patients with prior craniotomy undergoing epilepsy surgery evaluation. The dataset includes electrode coordinates localized in individual native post-operative CT imaging space, providing clinical neurophysiological data for assessing the safety and accuracy of SEEG implantation procedures in this patient population.",
-  "keywords": [
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "stereoelectroencephalography"
-    },
-    {
-      "term": "SEEG"
-    },
-    {
-      "term": "epilepsy"
-    },
-    {
-      "term": "epilepsy surgery"
-    },
-    {
-      "term": "pediatric"
-    },
-    {
-      "term": "pediatric neurosurgery"
-    },
-    {
-      "term": "electrode localization"
-    },
-    {
-      "term": "craniotomy"
-    },
-    {
-      "term": "intracranial electrodes"
-    },
-    {
-      "term": "surgical safety"
-    }
-  ],
-  "source_hash": "dc1500e813391491e5c477b9f3f6547e1342af4d0b7466eb298a618ea59804b4"
+  "source_hash": "29725455f4f0c895e2fbde8d53cba82cf2a8882650c84dee57505016958a2310"
 }
