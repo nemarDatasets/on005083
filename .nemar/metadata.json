@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Safety and Accuracy of Stereoelectroencephalography for Pediatric Patients with Prior Craniotomy",
-  "description": "This dataset comprises intracranial electroencephalography (iEEG) recordings from stereoelectroencephalography (SEEG) electrode implantations in pediatric patients with a history of prior craniotomy. The data includes electrode coordinates localized in individual native post-operative CT imaging space. All coordinates are recorded in native space with no alignment to other imaging modalities or standardized atlases. This dataset supports clinical and research investigations into the safety and accuracy of SEEG procedures in this patient population.",
+  "description": "This dataset comprises intracranial electroencephalography (iEEG) recordings from stereoelectroencephalography (SEEG) electrode implantations in pediatric patients with a history of prior craniotomy. The data includes electrode coordinates localized in individual native post-operative CT imaging space without alignment to standardized atlases, supporting clinical and research investigations into the safety and accuracy of SEEG procedures in this specialized patient population.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -37,22 +37,22 @@
       "term": "craniotomy"
     },
     {
-      "term": "epilepsy surgery"
+      "term": "intracranial electroencephalography"
     },
     {
       "term": "electrode localization"
     },
     {
-      "term": "intracranial recording"
+      "term": "pediatric neurosurgery"
     },
     {
-      "term": "safety"
+      "term": "epilepsy surgery"
     },
     {
-      "term": "accuracy"
+      "term": "surgical planning"
     },
     {
-      "term": "pediatric"
+      "term": "CT imaging"
     }
   ],
   "related_identifiers": [
@@ -91,6 +91,15 @@
     ".md",
     ".tsv",
     ".yml"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Washington University in St Louis"
+    },
+    {
+      "funder_name": "National Institutes of Health",
+      "award_number": "Unknown - verify from grant records"
+    }
   ],
   "source_hash": "29725455f4f0c895e2fbde8d53cba82cf2a8882650c84dee57505016958a2310"
 }
