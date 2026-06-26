@@ -1,0 +1,36 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005083",
+  "source": "openneuro",
+  "source_id": "ds005083",
+  "title": "Safety and Accuracy of Stereoelectroencephalography for Pediatric Patients with Prior Craniotomy",
+  "authors": {
+    "Peter H Yang": {},
+    "Nathan Wulfekammer": {},
+    "Amanda V. Jenson": {},
+    "Elliot Neal": {},
+    "Stuart Tomko": {},
+    "John Zempel": {},
+    "Peter Brunner": {},
+    "Sean D McEvoy": {},
+    "Matthew D Smyth": {},
+    "Jarod L Roland": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005083.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.9.0",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ]
+}
