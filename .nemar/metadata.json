@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005083",
-  "source": "openneuro",
-  "source_id": "ds005083",
+  "pipeline_stage": "enriched",
   "title": "Safety and Accuracy of Stereoelectroencephalography for Pediatric Patients with Prior Craniotomy",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Peter H Yang": {},
     "Nathan Wulfekammer": {},
@@ -16,21 +16,77 @@
     "Matthew D Smyth": {},
     "Jarod L Roland": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005083.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005083",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005083",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005083",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "ieeg"
   ],
-  "datatypes": [
-    "ieeg"
-  ]
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".dat",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This intracranial electroencephalography (iEEG) dataset comprises stereoelectroencephalography (SEEG) electrode recordings from pediatric patients with prior craniotomy undergoing epilepsy surgery evaluation. The dataset includes electrode coordinates localized in individual native post-operative CT imaging space, providing clinical neurophysiological data for assessing the safety and accuracy of SEEG implantation procedures in this patient population.",
+  "keywords": [
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "stereoelectroencephalography"
+    },
+    {
+      "term": "SEEG"
+    },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "epilepsy surgery"
+    },
+    {
+      "term": "pediatric"
+    },
+    {
+      "term": "pediatric neurosurgery"
+    },
+    {
+      "term": "electrode localization"
+    },
+    {
+      "term": "craniotomy"
+    },
+    {
+      "term": "intracranial electrodes"
+    },
+    {
+      "term": "surgical safety"
+    }
+  ],
+  "source_hash": "dc1500e813391491e5c477b9f3f6547e1342af4d0b7466eb298a618ea59804b4"
 }
