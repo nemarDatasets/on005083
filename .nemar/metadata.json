@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Safety and Accuracy of Stereoelectroencephalography for Pediatric Patients with Prior Craniotomy",
-  "description": "This dataset contains stereoelectroencephalography (SEEG) electrode data collected from pediatric patients with a prior craniotomy, organized in BIDS iEEG format. Electrode coordinates are provided in individual native post-operative CT imaging space without alignment to standardized atlases. The dataset supports analysis of the safety and localization accuracy of SEEG implantation in this pediatric surgical population.",
+  "description": "BIDS-formatted intracranial EEG dataset of stereoelectroencephalography (SEEG) electrode data from pediatric patients with prior craniotomy. The data support an analysis of the safety and accuracy of SEEG in this population. Electrode coordinates are given in each individual's native post-operative CT space, with no alignment to other imaging modalities or standardized atlases.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,26 +19,27 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
       "term": "stereoelectroencephalography"
     },
     {
       "term": "iEEG"
     },
     {
+      "term": "SEEG"
+    },
+    {
       "term": "pediatric epilepsy"
     },
     {
-      "term": "Craniotomy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003399"
+      "term": "craniotomy"
     },
     {
-      "term": "intracranial electrodes"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "electrode localization"
     }
   ],
   "related_identifiers": [
@@ -78,7 +79,7 @@
     "ieeg"
   ],
   "sizes": [
-    "363.9 KB (1233 files)"
+    "355 KB (1233 files)"
   ],
   "formats": [
     ".dat",
